@@ -18,7 +18,7 @@ We used Content based modelling. Where a tag is created for each movie which rep
 2.) Run the Gradio Movie Recommendor Interface python notebook
 - Once the vectors and cleaned data is pickled in the final steps of the above notebook they are pulled in this notebook
 - The inferencing/predicition/recommendation function is copied from above notebook
-- Custom Gradio interaface is created and user can input any of the 4086 movies in our dataset and get the 5 closest recommendations (see the png file for how the sample output looks)
+- Custom Gradio interaface is created and user can input any of the 4806 movies in our dataset and get the 5 closest recommendations (see the png file for how the sample output looks)
 
 
 
