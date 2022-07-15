@@ -7,8 +7,8 @@ We used Content based modelling. Where a tag is created for each movie which rep
 
 # Steps:
 1.) Run the Movie Recommendor model python notebook. 
-- This file will pull and merge the tbdm 5000 credits and tmdb 5000 movies dataset. 
-- We clean the data and form the movie-tag mapping. Where each tag is just the combination of the releant textual features that would help describe and characterize a person's preference for the particular movie best.
+- This file will pull and merge the tbmd 5000 credits and tmdb 5000 movies dataset. 
+- We clean the data and form the movie-tag mapping. Where each tag is just the combination of the relevant textual features that would help describe and characterize a person's preference for the particular movie best.
 - Post this we do preprocessing(stemming, stop word removal) on tags before vectorizing them. 
 - We use bag of word technique for vectorization. 
 - We then compute the similarity score for each movie with all other movie vectors using cosine similarity measure
