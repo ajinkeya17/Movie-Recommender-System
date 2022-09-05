@@ -3,7 +3,7 @@
 ## Dataset Used : TMDB 5000 movies Dataset (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
 
 ## Options for Recommendor Systems : Content based vs Collaborative Filtering based. 
-We used Content based modelling. Where a tag is created for each movie which represents it's comprehensive feature space. In our project we combined multiple textual columns such as actors of te movie,director,overview,etc to create a single textual tag of the movie which describes it the best. This textual tag is converted to a numeric vector. The similarity between each movie and all the others are calculated based on cosine similarity of these vectors. A gradio based interface was created where one can input any of the 4806 movies of the dataset and it will output the 5 most relevant/simmilar recommendations.
+We used Content based modelling where a tag is created for each movie which represents it's comprehensive feature space. In our project we combined multiple textual columns such as actors of the movie,director,overview,etc to create a single textual tag of the movie which describes it the best. This textual tag is converted to a numeric vector. The similarity between each movie and all the others are calculated based on cosine similarity of these vectors. A gradio based interface was created where one can input any of the 4806 movies of the dataset and it will output the 5 most relevant/simmilar recommendations.
 
 # Steps:
 1.) Run the Movie Recommendor model python notebook. 
