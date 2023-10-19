@@ -20,4 +20,4 @@ We used Content based modeling where a tag is created for each movie which repre
 - The inferencing/predicition/recommendation function is copied from above notebook
 - Custom Gradio interaface is created and user can input any of the 4806 movies in our dataset and get the 5 closest recommendations (see the png file for how the sample output looks)
 
-<img src = "Sample_output.jpg">
+<img src = "Sample_output.JPG">
